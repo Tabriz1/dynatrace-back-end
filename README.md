@@ -19,6 +19,8 @@ python -m unittest discover -s tests
 4. You can check manually differenet examples: 
 
 curl http://localhost:5000/exchanges/USD/maxmin/5
+
 curl http://localhost:5000/exchanges/EUR/maxmin/5
+
 curl http://localhost:5000/exchanges/GBP/major_difference/5
 
