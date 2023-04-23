@@ -1,6 +1,6 @@
-# NBP Exchange Rates
+#About
 
-A simple Flask application to query data from the Narodowy Bank Polski's public APIs and return relevant information.
+I once participated in a project as a volunteer. There, I used Flask, Json, and MongoDB. this was quite helpful.
 
 ## Getting Started
 
