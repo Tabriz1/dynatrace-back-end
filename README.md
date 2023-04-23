@@ -12,18 +12,13 @@ pip install -r requirements.txt
   
 python app.py
 
-3. Examples:
+3. Test: 
 
-- To get the average exchange rate for USD on 2023-01-02:
+python -m unittest discover -s tests
 
-curl http://localhost:5000/exchanges/USD/2023-01-02
-
-
-- To get the max and min average value for USD in the last 5 days:
+4. You can check manually differenet examples: 
 
 curl http://localhost:5000/exchanges/USD/maxmin/5
-
-- To get the major difference between the buy and ask rate for USD in the last 5 days:
-
-curl http://localhost:5000/exchanges/USD/major_difference/5
+curl http://localhost:5000/exchanges/EUR/maxmin/5
+curl http://localhost:5000/exchanges/GBP/major_difference/5
 
