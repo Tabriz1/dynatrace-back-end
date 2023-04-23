@@ -4,6 +4,8 @@ I've done a project before as a volunteer. I used Flask there, putting it up and
 
 I researched on this project: Swagger, unittest library, JSON
 
+Useful link: https://api.nbp.pl/en.html#data_sources
+
 ## Getting Started
 
 1. Install the requirements:
