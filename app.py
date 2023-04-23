@@ -1,5 +1,9 @@
+
+from api import get_major_difference_buy_ask_rate, get_max_min_average,get_average_exchange_rate
+
+
 from flask import Flask, jsonify
-from nbp_api import get_average_exchange_rate, get_max_min_average, get_major_difference_buy_ask_rate
+
 
 app = Flask(__name__)
 
